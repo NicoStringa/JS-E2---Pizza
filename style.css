@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;600;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+:root {
+    --lavanderweb: #d8dce9;
+    --magenta: #de3f82;
+    --darkliver: #5a464c;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    background: var(--darkliver);
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 50px 0px;
+    width: 100vh;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 50px;
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 2rem;
+    gap: 1rem;
+    color: whitesmoke;
+    font-size: 40px;
+}
+
+.small {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.pizzaSelector {
+    border-radius: 2rem;
+    height: 2.5rem;
+    width: 15rem;
+    margin: 2rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.select-btn {
+    cursor: pointer;
+    background-color: var(--lavanderweb);
+    color: black;
+    border-radius: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    height: 2rem;
+    width: 15rem;
+}
+
+.select-btn:hover {
+    background-color: var(--magenta);
+}
