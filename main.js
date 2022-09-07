@@ -46,7 +46,7 @@ const pizzas = [
 const renderPizza = e => {
     e.preventDefault();
     if (pizzaSearch(pizzas) == undefined){
-        alert('No existe la Pizza, por favor eliga otro numero.')
+        alert('No existe la Pizza, por favor seleccione otro numero.')
         return
     } else {
         nombrePizza.textContent=`Tipo: ${pizzaSearch(pizzas).nombre}`;
